@@ -20,3 +20,10 @@ export function updateStep(step) {
         payload:step,
     }
 }
+
+export function updateMax(max) {
+    return {
+        type: 'updateMax',
+        payload:max,
+    }
+}
