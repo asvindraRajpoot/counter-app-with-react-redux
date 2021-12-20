@@ -13,3 +13,10 @@ export function reset() {
         type: 'reset',
     }
 }
+
+export function updateStep(step) {
+    return {
+        type: 'updateStep',
+        payload:step,
+    }
+}
